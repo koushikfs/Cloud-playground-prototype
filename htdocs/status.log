@@ -1,0 +1,84 @@
+1st Jan 2024 / 12:46 AM:           [+] Received POST request
+1st Jan 2024 / 12:46 AM:           [-] Error: No data passed
+
+1st Jan 2024 / 12:47 AM:           [+] Received POST request
+1st Jan 2024 / 12:47 AM:           [-] Error: No data passed
+
+1st Jan 2024 / 12:51 AM:           [+] Received POST request
+1st Jan 2024 / 12:51 AM:           [+] Valid JSON data found
+1st Jan 2024 / 12:51 AM:           [+] Created input.json file
+1st Jan 2024 / 12:51 AM:          [+] Generating terraform code
+1st Jan 2024 / 12:51 AM:          [+] Generation complete
+1st Jan 2024 / 12:51 AM:          [+] Removing instance profiles
+1st Jan 2024 / 12:51 AM:          [+] Removed instance profiles
+1st Jan 2024 / 12:51 AM:          [+] creating a terraform file
+1st Jan 2024 / 12:51 AM:          [+] created a terraform file
+1st Jan 2024 / 12:51 AM:          [+] Starting ~# terraform init
+1st Jan 2024 / 12:51 AM:          [+] Terraform init completed
+1st Jan 2024 / 12:51 AM:          [+] Terraform apply in progress, will take ~5min :-)
+01th Jan 2024 / 12:54 AM:          [+] Terraform apply completed successfully.
+01th Jan 2024 / 12:54 AM:          [+] Your infrastructure Design Got Deployed <3 <3 <3
+
+1st Jan 2024 / 01:18 AM:          [+] Terraform destroy in progress
+1st Jan 2024 / 01:18 AM:          [+] Terraform destroy completed
+
+1st Jan 2024 / 01:24 AM:           [+] Received POST request
+1st Jan 2024 / 01:24 AM:           [+] Valid JSON data found
+1st Jan 2024 / 01:24 AM:           [+] Created input.json file
+1st Jan 2024 / 01:24 AM:           [+] Generating terraform code
+1st Jan 2024 / 01:24 AM:           [+] Generation complete
+1st Jan 2024 / 01:24 AM:           [+] Removing instance profiles
+1st Jan 2024 / 01:25 AM:           [+] Removed instance profiles
+1st Jan 2024 / 01:25 AM:           [+] creating a terraform file
+1st Jan 2024 / 01:25 AM:           [+] created a terraform file
+1st Jan 2024 / 01:25 AM:           [+] Starting ~# terraform init
+1st Jan 2024 / 01:25 AM:           [+] Terraform init completed
+1st Jan 2024 / 01:25 AM:           [+] Terraform apply in progress, will take ~5min :-)
+01 Jan 2024 / 01:25 AM:          [+] Terraform apply completed successfully.
+01 Jan 2024 / 01:25 AM:          [+] Your infrastructure Design Got Deployed <3 <3 <3
+
+1st Jan 2024 / 01:27 AM:          [+] Terraform destroy in progress
+1st Jan 2024 / 01:28 AM:          [+] Terraform destroy completed
+
+1st Jan 2024 / 01:29 AM:           [+] Received POST request
+1st Jan 2024 / 01:29 AM:           [+] Valid JSON data found
+1st Jan 2024 / 01:29 AM:           [+] Created input.json file
+1st Jan 2024 / 01:29 AM:           [+] Generating terraform code
+1st Jan 2024 / 01:29 AM:           [+] Generation complete
+1st Jan 2024 / 01:29 AM:           [+] Removing instance profiles
+1st Jan 2024 / 01:29 AM:           [+] Removed instance profiles
+1st Jan 2024 / 01:29 AM:           [+] creating a terraform file
+1st Jan 2024 / 01:29 AM:           [+] created a terraform file
+1st Jan 2024 / 01:29 AM:           [+] Starting ~# terraform init
+1st Jan 2024 / 01:29 AM:           [+] Terraform init completed
+1st Jan 2024 / 01:29 AM:           [+] Terraform apply in progress, will take ~5min :-)
+01 Jan 2024 / 01:30 AM:            [+] Terraform apply completed successfully.
+01 Jan 2024 / 01:30 AM:            [+] Your infrastructure Design Got Deployed <3 <3 <3
+
+1st Jan 2024 / 01:35 AM:           [+] Terraform destroy in progress
+1st Jan 2024 / 01:35 AM:           [+] Terraform destroy completed
+
+1st Jan 2024 / 01:38 AM:            [+] Terraform destroy in progress
+1st Jan 2024 / 01:38 AM:            [+] Terraform destroy completed
+
+1st Jan 2024 / 01:39 AM:           [+] Received POST request
+1st Jan 2024 / 01:39 AM:           [+] Valid JSON data found
+1st Jan 2024 / 01:39 AM:           [+] Created input.json file
+1st Jan 2024 / 01:39 AM:           [+] Generating terraform code
+1st Jan 2024 / 01:39 AM:           [+] Generation complete
+1st Jan 2024 / 01:39 AM:           [+] Removing instance profiles
+1st Jan 2024 / 01:39 AM:           [+] Removed instance profiles
+1st Jan 2024 / 01:39 AM:           [+] creating a terraform file
+1st Jan 2024 / 01:39 AM:           [+] created a terraform file
+1st Jan 2024 / 01:39 AM:           [+] Starting ~# terraform init
+1st Jan 2024 / 01:39 AM:           [+] Terraform init completed
+1st Jan 2024 / 01:39 AM:           [+] Terraform apply in progress, will take ~5min :-)
+01 Jan 2024 / 01:39 AM:            [+] Terraform apply completed successfully.
+01 Jan 2024 / 01:39 AM:            [+] Your infrastructure Design Got Deployed <3 <3 <3
+
+1st Jan 2024 / 01:40 AM:           [+] Terraform destroy in progress
+1st Jan 2024 / 01:40 AM:           [+] Terraform destroy completed
+
+1st Jan 2024 / 01:41 AM:           [+] Terraform destroy in progress
+1st Jan 2024 / 01:41 AM:           [+] Terraform destroy completed
+

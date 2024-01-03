@@ -1,0 +1,23 @@
+# Enable mod_rewrite and mod_headers modules
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Respond with 200 OK for OPTIONS requests
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^ - [R=200,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Set CORS headers for OPTIONS requests
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type"
+
+    
+    # Apply the headers for OPTIONS requests only
+    <If "%{REQUEST_METHOD} == 'OPTIONS'">
+        Header always set Access-Control-Allow-Origin "*"
+        Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+        Header always set Access-Control-Allow-Headers "Content-Type"
+    </If>
+</IfModule>

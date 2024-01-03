@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON POST Request PROTO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            /* width: 50%; */
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        #statusBox {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9e9e9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            font-size: 0.9em;
+            text-align: left;
+            width: 780px;
+            overflow: auto;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>LIVE STATUS</h2>
+        <div id="statusBox" style="white-space: pre;">Status messages will appear here...</div>
+    </div>
+
+    <script>
+        function fetchStatus() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "status.php", true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                document.getElementById('statusBox').innerHTML = xhr.responseText;
+            }
+        };
+
+        xhr.send();
+    }
+        setInterval(fetchStatus, 1000); // Update the status every second
+    </script>
+</body>
+</html>
