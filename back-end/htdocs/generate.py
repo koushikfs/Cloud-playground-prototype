@@ -8,8 +8,8 @@ def generate_terraform_script(json_file):
     terraform_script_parts = [
     f'provider "aws" {{\n',
     f'  region = "ap-south-1"\n',
-    f'  access_key = "AKIARYLQUL4TWQZNA462"\n',
-    f'  secret_key = "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"\n',
+    f'  access_key = "[]"\n',
+    f'  secret_key = "[]"\n',
     f'}}\n\n']
 
     ec2_s3_access_map = {}
